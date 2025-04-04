@@ -1,5 +1,7 @@
-/*
+/**
 @author Stanisław Wojtków
+@param x pierwszy multizbiór
+@param y drugi multizbiór
  */
 
 fun <T> wspolne(x: List<T>, y: List<T>): List<T> {
