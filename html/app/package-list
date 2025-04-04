@@ -1,0 +1,12 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:com.example.probio_lista1////PointingToDeclaration/app/com.example.probio_lista1/index.html
+$dokka.location:com.example.probio_lista1//Fibonacci/#kotlin.Int/PointingToDeclaration/app/com.example.probio_lista1/-fibonacci.html
+$dokka.location:com.example.probio_lista1//collatz/#kotlin.Int/PointingToDeclaration/app/com.example.probio_lista1/collatz.html
+$dokka.location:com.example.probio_lista1//heron/#kotlin.Double#kotlin.Double#kotlin.Double/PointingToDeclaration/app/com.example.probio_lista1/heron.html
+$dokka.location:com.example.probio_lista1//komplement/#kotlin.String/PointingToDeclaration/app/com.example.probio_lista1/komplement.html
+$dokka.location:com.example.probio_lista1//main/#/PointingToDeclaration/app/com.example.probio_lista1/main.html
+$dokka.location:com.example.probio_lista1//podzbiory/#kotlin.collections.Set[TypeParam(bounds=[kotlin.Any?])]/PointingToDeclaration/app/com.example.probio_lista1/podzbiory.html
+$dokka.location:com.example.probio_lista1//transkrybuj/#kotlin.String/PointingToDeclaration/app/com.example.probio_lista1/transkrybuj.html
+$dokka.location:com.example.probio_lista1//wspolne/#kotlin.collections.List[TypeParam(bounds=[kotlin.Any?])]#kotlin.collections.List[TypeParam(bounds=[kotlin.Any?])]/PointingToDeclaration/app/com.example.probio_lista1/wspolne.html
+com.example.probio_lista1
