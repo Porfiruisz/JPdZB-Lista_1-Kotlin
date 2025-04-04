@@ -1,7 +1,13 @@
 /**
-@author Stanisław Wojtków
-@param c parametr
- */
+*@author Stanisław Wojtków
+*
+* Funkcja zwraca kolejne liczby w ciągu Collatza w zależności od argumentu wejściowego
+*
+* @param c parametr
+* @return lista kolejnych wartości w ciągu Collatza
+*
+* @throws IllegalArgumentException jeśli c jest ujemne, bądź równe 0
+*/
 
 /*
 ŹRÓDŁA:
