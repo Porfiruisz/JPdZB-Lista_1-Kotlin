@@ -1,6 +1,7 @@
 import kotlin.math.pow
-/*
+/**
 @author Stanisław Wojtków
+@param zbior zbiór którego funkcja zwraca podzbiory
  */
 
 
