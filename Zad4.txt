@@ -1,5 +1,6 @@
-/*
+/**
 @author Stanisław Wojtków
+@param n ilość wyrazów ciągu Fibbionaciego
  */
 
 fun Fibonacci(n: Int): List<Int> {
