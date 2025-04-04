@@ -1,5 +1,6 @@
-/*
+/**
 @author Stanisław Wojtków
+@param c parametr
  */
 
 /*
