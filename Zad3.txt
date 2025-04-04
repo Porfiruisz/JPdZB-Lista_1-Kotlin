@@ -1,8 +1,15 @@
 import kotlin.math.pow
 /**
-@author Stanisław Wojtków
-@param zbior zbiór którego funkcja zwraca podzbiory
- */
+* Funkcja zwraca listę podzbiorów zbioru wejściowego
+*
+* @author Stanisław Wojtków
+*
+* @param zbior zbiór elementów dowolnego typu
+* @return lista wszystkich podzbiorów zbioru wejściowego
+*
+* @throws IllegalArgumentException jeśli zbiór jest pusty
+* @throws IllegalArgumentException jeśli zbiór zawiera nieprawidłowy element
+*/
 
 
 fun <T> podzbiory(zbior: Set<T>): List<Set<T>> {
