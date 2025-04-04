@@ -1,8 +1,14 @@
 /**
-@author Stanisław Wojtków
-@param x pierwszy multizbiór
-@param y drugi multizbiór
- */
+* Zwraca listę elementów wspólnych dla dwóch multizbiorów, uwzględniając liczbę wystąpień. Funkcja przyjmuje listę elementów dowolnego typu.
+*
+* @author Stanisław Wojtków
+*
+* @param x pierwszy multizbiór
+* @param y drugi multizbiór
+* @return lista elementów wspólnych
+*
+* @throws IllegalArgumentException jeśli którakolwiek z list jest pusta
+*/
 
 fun <T> wspolne(x: List<T>, y: List<T>): List<T> {
     require(x.isNotEmpty()) { "Multizbior nie moze byc pusty" }
