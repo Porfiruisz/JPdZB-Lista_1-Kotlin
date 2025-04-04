@@ -11,7 +11,7 @@ https://programmerabroad.com/collatz-sequence-in-cpp/
  */
 
 fun collatz(c: Int): List<Int> {
-    require(c > 0) { "Liczba początkowa musi byc dodatnia" } //Jeśli wprowadzony argument nie będzie liczbą dodatinią to otrzymamy wyjątek
+    require(c > 0) { "Liczba musi byc dodatnia" } //Jeśli wprowadzony argument nie będzie liczbą dodatinią to otrzymamy wyjątek
 
     val sekwencja = mutableListOf(c)
     var cur = c
