@@ -1,7 +1,10 @@
 import kotlin.math.sqrt
 
-/*
+/**
 @author Stanisław Wojtków
+@param a bok trójkąta
+@param a bok trójkąta
+@param a bok trójkąta
  */
 
 
