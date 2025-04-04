@@ -19,7 +19,7 @@ fun <T> wspolne(x: List<T>, y: List<T>): List<T> {
     val mapaX = x.groupingBy { it }.eachCount()
     val mapaY = y.groupingBy { it }.eachCount()
 
-    return mapaX.keys.intersect(mapaY.keys).flatMap { key -> List(minOf(mapaX.getValue(key), mapaY.getValue(key))) { key }} // ten fragment został stworzony z pomocą chatu GPT
+    return mapaX.keys.intersect(mapaY.keys).flatMap { key -> List(minOf(mapaX.getValue(key), mapaY.getValue(key))) { key }} // Ten fragment został stworzony z pomocą chatu GPT. Prompt to treść polecenia.
 }
 
 fun main(){
