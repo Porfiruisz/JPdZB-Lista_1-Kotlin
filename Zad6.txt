@@ -1,6 +1,15 @@
 /*
-@author Stanisław Wojtków
- */
+* @author Stanisław Wojtków
+*
+* Funkcja komplement dla sekwencji DNA znajduje i zwraca sekwencję nici matrycowej, natomiast funkcja transkrybuj znajduje i zwraca sekwencję RNA.
+*
+* @param dna wejściowa sekwencja DNA
+* @return komplementarna sekwencja fragmentu DNA (od "ATG" do kodonu stop)
+*
+* @throws IllegalArgumentException jeśli dane wejściowe nie posiadają kodonu startowego "ATG"
+* @throws IllegalArgumentException jeśli nie znaleciono kodonu stop TAA, TAG lub TGA
+* @throws IllegalArgumentException jeśli nie znaleciono niepoprawne elementy w ciągu DNA
+*/
 
 /*
 ŹRÓDŁA:
@@ -23,7 +32,7 @@ fun komplement(dna: String): String {
         throw IllegalArgumentException("Brak kodonu startowego ATG w sekwencji DNA") // Jeśli takowego kodonu nie ma to funkcja zwraca wyjątek
     }
 
-    val stopCodons = listOf("TAA", "TAG", "TGA") // Znalezienie kodonu stop TAA, TAG lub TGA
+    val stopCodons = listOf("TAA", "TAG", "TGA") // Szukanie kodonu stop TAA, TAG lub TGA
     var endIndex = dna.length
     for (codon in stopCodons) {
         val stopIndex = dna.indexOf(codon, startIndex + 3)
