@@ -1,7 +1,7 @@
 package com.example.probio_lista1
 
 /**
- * Zwraca listę elementów wspólnych dla dwóch multizbiorów, uwzględniając liczbę wystąpień. Funkcja przyjmuje listę elementów dowolnego typu.
+ * Zwraca listę elementów wspólnych dla dwóch multizbiorów. Funkcja przyjmuje listę elementów dowolnego typu.
  *
  * @author Stanisław Wojtków
  *
@@ -28,4 +28,14 @@ fun main(){
     val multizbior2 = listOf(2, 2, 3, 4, 4, 4, 6, 6)
     val wynik = wspolne(multizbior1, multizbior2)
     println(wynik) //Poprawne wywołanie funkcji
+
+    val multizbior3 = listOf("A", "A", "B", "C", "C", "C", "D", "E")
+    val multizbior4 = listOf("A", "A", "A", "C", "C", "D", "D", "E")
+    val wynik2 = wspolne(multizbior3, multizbior4)
+    println(wynik2) //Poprawne wywołanie funkcji
+
+    val multizbior5 = listOf(1,1,1,1,1)
+    val multizbior6 = listOf(0)
+    val wynik3 = wspolne(multizbior5, multizbior6)
+    println(wynik3) //Poprawne wywołanie funkcji (funkcja zwróciła pusty zbiór)
 }
