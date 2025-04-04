@@ -1,11 +1,17 @@
 import kotlin.math.sqrt
 
 /**
-@author Stanisław Wojtków
-@param a bok trójkąta
-@param a bok trójkąta
-@param a bok trójkąta
- */
+* @author Stanisław Wojtków
+* Oblicza pole trójkąta przy użyciu wzoru Herona.
+*
+* @param a długość pierwszego boku (musi być dodatnia)
+* @param b długość drugiego boku (musi być dodatnia)
+* @param c długość trzeciego boku (musi być dodatnia)
+* @return pole powierzchni trójkąta jako liczba zmiennoprzecinkowa typu Double
+*
+* @throws IllegalArgumentException jeśli którykolwiek z boków jest niedodatni
+* @throws IllegalArgumentException jeśli suma dwóch boków nie jest większa niż trzeci bok (nie tworzy trójkąta)
+*/
 
 
 fun heron(a: Double, b: Double, c: Double): Double{
