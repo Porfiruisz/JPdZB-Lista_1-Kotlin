@@ -27,7 +27,7 @@ fun <T> podzbiory(zbior: Set<T>): List<Set<T>> {
 
     for (i in 1 until dwa.pow(n).toInt()) {  // dwa.pow(n).toInt(), czyli wszystkie kombinacje 2^n
         val podzbior = mutableSetOf<T>()
-        for (j in 0 until n) {                 // ta część zrobiona z pomocą czatu GPT
+        for (j in 0 until n) {
             if (i and (dwa.pow(j).toInt()) != 0) {
                 podzbior.add(lista[j])
             }
