@@ -1,4 +1,4 @@
-/*
+/**
 * @author Stanisław Wojtków
 *
 * Funkcja komplement dla sekwencji DNA znajduje i zwraca sekwencję nici matrycowej, natomiast funkcja transkrybuj znajduje i zwraca sekwencję RNA.
