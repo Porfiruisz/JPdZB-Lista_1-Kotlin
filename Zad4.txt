@@ -1,7 +1,13 @@
 /**
-@author Stanisław Wojtków
-@param n ilość wyrazów ciągu Fibbionaciego
- */
+*@author Stanisław Wojtków
+*
+* Funkcja zwraca listę pierwszych `n` elementów ciągu Fibonacciego.
+*
+* @param n liczba elementów do wygenerowania
+* @return lista liczb Fibonacciego o długości `n`
+*
+* @throws IllegalArgumentException jeśli n jest ujemne
+*/
 
 fun Fibonacci(n: Int): List<Int> {
     require(n >= 0) { "Wartosc n nie moze byz mniejsza od 0" } // Funkcja zwraca wyjątek gdy argument jest mniejszy od 0
