@@ -21,7 +21,7 @@ fun heron(a: Double, b: Double, c: Double): Double{
     require(a + b > c && a + c > b && b + c > a) { "Podane wartosci nie tworza trojkata" } // wyjątek jeśli suma dwóch boków jest mniejsza od trzeciego
 
     val q = (a+b+c)/2
-    val P: Double = sqrt(q*(q-a)*(q-b)*(q-b))
+    val P: Double = sqrt(q*(q-a)*(q-b)*(q-c))
 
     return P
 }
