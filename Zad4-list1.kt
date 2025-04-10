@@ -25,6 +25,12 @@ fun Fibonacci(n: Int): List<Int> {
     return wynik
 }
 
+
+// Tą funkcję dodałem po terminie. Nie doczytałem polecenia na eportalu
+fun FibonacciRek(n: Int): List<Int> {
+    return if (n <= 1) n else FibonacciRek(n-1)+FibonacciRek(n-2)
+}
+
 fun main(){
     val test1 = Fibonacci(10) //Poprawne wywołanie funkcji
     println(test1)
