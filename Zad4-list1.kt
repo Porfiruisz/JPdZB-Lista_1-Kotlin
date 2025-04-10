@@ -12,10 +12,9 @@ package com.example.probio_lista1
  */
 
 fun Fibonacci(n: Int): List<Int> {
-    require(n >= 0) { "Wartosc n nie moze byz mniejsza od 0" } // Funkcja zwraca wyjątek gdy argument jest mniejszy od 0
+    require(n >= 0) { "Wartosc n nie moze byc mniejsza od 0" } // Funkcja zwraca wyjątek gdy argument jest mniejszy od 0
 
     if (n == 0) return listOf(0) //Gdy za argument zostanie podane 0, w konsoli wyświetli się tylko [0]
-    if (n == 1) return listOf(1) //Gdy za argument zostanie podane 0, w konsoli wyświetli się tylko [1]
 
     val wynik = mutableListOf(0, 1)
 
